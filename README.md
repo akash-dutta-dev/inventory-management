@@ -32,6 +32,28 @@
 $ npm install
 ```
 
+## APIs
+
+POST localhost:3000
+hello world
+
+POST localhost:3000/products
+{
+"name": "product name",
+"currentQuantity": 0,
+"maximumQuantity": 500
+}
+
+GET localhost:3000/products
+
+PATCH localhost:3000/products/1/add/50
+
+PATCH localhost:3000/products/1/deduct/50
+
+GET localhost:3000/transaction
+
+GET localhost:3000/transaction/last/5
+
 ## Running the app
 
 ```bash
