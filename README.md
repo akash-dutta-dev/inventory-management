@@ -34,7 +34,7 @@ $ npm install
 
 ## APIs
 
-POST localhost:3000
+GET localhost:3000
 hello world
 
 POST localhost:3000/products
